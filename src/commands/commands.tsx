@@ -82,7 +82,7 @@ const rawCommands: Command[] = [
 						({ name, html_url, description }: any, key: number) => (
 							<ListElement
 								key={key}
-								icon={'fab fa-fw fa-github-alt'}
+								icon={'fas fa-fw fa-link'}
 								name={name}
 								link={html_url}
 								description={description}
